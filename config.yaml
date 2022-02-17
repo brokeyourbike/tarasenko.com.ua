@@ -1,0 +1,29 @@
+baseURL: "https://tarasenko.com.ua/"
+title: "Тарасенко Дмитрий"
+theme: "PaperMod"
+
+params:
+  env: production
+  title: "Ремонт и обслуживание сельхозтехники"
+
+  defaultTheme: light
+  disableThemeToggle: true
+  ShowShareButtons: false
+
+  profileMode:
+    enabled: true
+    title: "Ремонт и обслуживание сельхозтехники"
+    subtitle: "Занимаемся ремонтом и обслуживанием тракторов, в особенности Т-16 и Т-25. Осуществляются любые виды работ. В наличии имеются большое количество запчастей на указанную выше технику."
+
+  socialIcons:
+    - name: "viber"
+      url: "viber://chat?number=380971531046"
+    - name: "phone"
+      url: "tel:380971531046"
+
+menu:
+  main:
+    - identifier: home
+      name: Главная
+      url: /
+      weight: 10

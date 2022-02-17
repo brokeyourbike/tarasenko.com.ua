@@ -1,0 +1,11 @@
+.list {
+    background-image: url(/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-icons a svg {
+    height: 40px;
+    width: 40px;
+}
